@@ -1,0 +1,53 @@
+h1 {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
+form {
+	margin:auto;
+	width: 300px;
+	padding: 20px;
+	background-color: #76D7C4;
+	border-radius: 15px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
+
+}
+.psw, .uname, .email {
+
+	margin:10px;
+	margin-left: 15px
+
+}
+
+label {
+	align-items: flex-start;
+}
+
+input {
+	border-style: none;
+	box-shadow:inset 2px 2px lightgrey
+}
+button {
+	background-color: darkblue;
+	border: none;
+	color: white;
+	padding: 6px;
+	box-shadow: darkblue;
+	background-image: linear-gradient(#1a85ae,#1780af,#07b8dc);
+	border-radius: 5px;
+	
+}
+
+button a {
+	color: white;
+	text-decoration: none;
+}
+
+button:hover {
+	font-weight: bold;
+}
+
+.prompt, .register {
+	margin-top: 20px
+}

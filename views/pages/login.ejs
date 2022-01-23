@@ -1,0 +1,32 @@
+<%- include('../partials/head.ejs') %>
+<form action="" method="POST">
+    
+  
+    <div class="container">
+      <div class="email">
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Your email..." name="email" required>
+    </div>
+    <div class="psw">
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Your password..." name="password" required>
+    </div>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    
+  
+    <div class="prompt">
+      <span>Forgot <a href="#">password?</a></span>
+    </div>
+
+    <div class="register">
+      Don't have an account yet?
+      <button><a href="/register">Register</a></button>
+    </div>
+  </form>
+  
